@@ -86,6 +86,6 @@ DOWNLOAD_TEXT_URL = "https://telegram.dog/BotEmpires/9"
 
    # Custom Caption Under Button #
 CAPTION_BUTTON = "Updates Channel"
-CAPTION_BUTTON_URL = "https://telegram.dog/Moviez_Empires
+CAPTION_BUTTON_URL = "https://telegram.dog/Moviez_Empires"
 
    # Auto Delete For Bot Sending Files #
