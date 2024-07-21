@@ -22,10 +22,10 @@ BATCH_FILES = {}
 async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
-                InlineKeyboardButton('⚡ Updates Channel ⚡', url='https://t.me/SouthTamilall1')
+                InlineKeyboardButton('⚡ Updates Channel ⚡', url='https://t.me/Moviez_Empires')
             ],
             [
-                InlineKeyboardButton('⚡ Bot Updates ⚡', url='https://telegram.dog/SouthTamilall1bot'),
+                InlineKeyboardButton('⚡ Bot Updates ⚡', url='https://telegram.dog/ConnectWithEmperor_bot'),
             ],
             [
                 InlineKeyboardButton(text=DOWNLOAD_TEXT_NAME,url=DOWNLOAD_TEXT_URL)
@@ -45,8 +45,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('нσω тσ υѕє', url=f'http://telegram.dog/SouthTamilall2/28')
         ], [
-            InlineKeyboardButton('✘ Latest Updates', url='https://telegram.dog/SouthTamilall1'),
-            InlineKeyboardButton('Bot Updates ✘', url='https://telegram.dog/SouthTamilall1bot')
+            InlineKeyboardButton('✘ Latest Updates', url='https://telegram.dog/Moviez_Empires'),
+            InlineKeyboardButton('Bot Updates ✘', url='https://telegram.dog/ConnectWithEmperor_bot')
             ],[
             InlineKeyboardButton('✘ Close the Menu ✘', callback_data='close_data')
         ]]
@@ -90,8 +90,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('нσω тσ υѕє', url=f'http://telegram.dog/SouthTamilall2/28')
         ], [
-            InlineKeyboardButton('✘ Latest Updates', url='https://telegram.dog/SouthTamilall1'),
-            InlineKeyboardButton('Bot Updates ✘', url='https://telegram.dog/SouthTamilall1bot')
+            InlineKeyboardButton('✘ Latest Updates', url='https://telegram.dog/Moviez_Empires'),
+            InlineKeyboardButton('Bot Updates ✘', url='https://telegram.dog/ConnectWithEmperor_bot')
             ],[
             InlineKeyboardButton('✘ Close the Menu ✘', callback_data='close_data')
         ]]
@@ -243,7 +243,7 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('✘ Updates Channel', url='https://telegram.dog/MoviGenX'), InlineKeyboardButton('Bot Updates ✘', url='https://telegram.dog/MoviZenXFlix') ], [ InlineKeyboardButton('🔞 Erotic Updates 🔞', url='https://telegram.dog/Latest_leaked') ] ] ),
+        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('✘ Updates Channel', url='https://telegram.dog/Moviez_Empires'), InlineKeyboardButton('Bot Updates ✘', url='https://telegram.dog/Moviez_Empires') ], [ InlineKeyboardButton('🔞 Erotic Updates 🔞', url='https://telegram.dog/Moviez_Empires') ] ] ),
         protect_content=True if pre == 'filep' else False,
         )
                     
