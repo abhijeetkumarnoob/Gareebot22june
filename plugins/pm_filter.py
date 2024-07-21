@@ -436,10 +436,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('нσω тσ υѕє', url=f'http://telegram.dog/SouthTamilall2/28')
+            InlineKeyboardButton('нσω тσ υѕє', url=f'http://telegram.dog/BotEmpires/9')
         ], [
-            InlineKeyboardButton('✘ Latest Updates', url='https://telegram.dog/SouthTamilall1'),
-            InlineKeyboardButton('Bot Updates ✘', url='https://telegram.dog/SouthTamilallbots')
+            InlineKeyboardButton('✘ Latest Updates', url='https://telegram.dog/Moviez_Empires'),
+            InlineKeyboardButton('Bot Updates ✘', url='https://telegram.dog/BotEmpires')
             ],[
             InlineKeyboardButton('✘ Close the Menu ✘', callback_data='close_data')
         ]]
@@ -702,11 +702,11 @@ async def auto_filter(client, msg, spoll=False):
         )
 
     btn.insert(0, [
-        InlineKeyboardButton("✘ Movie Updates", url="https://telegram.dog/SouthTamilall1"),
-        InlineKeyboardButton("Bot Updates ✘", url="https://telegram.dog/SouthTamilallbots")
+        InlineKeyboardButton("✘ Movie Updates", url="https://telegram.dog/Moviez_Empires"),
+        InlineKeyboardButton("Bot Updates ✘", url="https://telegram.dog/BotEmpires")
     ])
     btn.insert(0, [
-        InlineKeyboardButton("Hσω тσ Dσωηℓσα∂ 🤔",url="https://telegram.dog/SouthTamilallbots")]
+        InlineKeyboardButton("Hσω тσ Dσωηℓσα∂ 🤔",url="https://telegram.dog/BotEmpires")]
         )
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
